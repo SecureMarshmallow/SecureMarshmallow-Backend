@@ -14,6 +14,7 @@ public class MainController {
 
     @Autowired
     private UserRepository userRepository;
+    private BoardRepository boardRepository;
 
     @PostMapping("/login")
     public ResponseEntity<User> login(@RequestParam String username, @RequestParam String password) {
@@ -43,13 +44,33 @@ public class MainController {
         }
     }
 
-    @PostMapping("/write")
+    @PostMapping("/write_ok")
     public ResponseEntity<User> writePost(@RequestParam String title, @RequestParam String writer,@RequestParam String content,@RequestParam String password) {
-        Board board = BoardRepository.(title, writer, content, password);
-        if (user == null) {
+        Board board = (Board) boardRepository.writePost(title, writer, content, password);
+        if (board == null)
+        {
             return ResponseEntity.notFound().build();
-        } else if (user != null) {
-            return ResponseEntity.ok(user);
+        }
+        else if (board != null)
+        {
+            return ResponseEntity.ok((User) board);
+        }
+        else
+        {
+            return ResponseEntity.notFound().build();
+        }
+    }
+
+    @PostMapping("/viewPost")
+    public ResponseEntity<User> viewPost(@RequestParam int idx) {
+        Board board = (Board) boardRepository.viewPost(idx);
+        if (board == null)
+        {
+            return ResponseEntity.notFound().build();
+        }
+        else if (board != null)
+        {
+            return ResponseEntity.ok((User) board);
         }
         else
         {

@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="23d214fe-a2d9-4675-87e8-184f49e90aaf" name="Changes" comment="🔨 :: 게시판 구현 시도">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Secure/Marshmallow/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Secure/Marshmallow/Board.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Secure/Marshmallow/BoardRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Secure/Marshmallow/BoardRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/Secure/Marshmallow/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Secure/Marshmallow/MainController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -91,7 +91,7 @@
       <workItem from="1677394527327" duration="8010000" />
       <workItem from="1677402875078" duration="1224000" />
       <workItem from="1677405413655" duration="1803000" />
-      <workItem from="1677407222285" duration="3091000" />
+      <workItem from="1677407222285" duration="3551000" />
     </task>
     <task id="LOCAL-00001" summary="🔨 :: 로그인">
       <created>1677390168213</created>
@@ -184,7 +184,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677411321690</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="🔨 :: 게시판 구현 시도">
+      <created>1677411964351</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1677411964351</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
