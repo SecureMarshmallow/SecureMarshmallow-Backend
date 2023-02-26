@@ -5,16 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="23d214fe-a2d9-4675-87e8-184f49e90aaf" name="Changes" comment="🔨 :: 로그인">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Secure/Marshmallow/MarshmallowApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/Secure/Marshmallow/MarshmallowApplicationTests.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../SecureMarshmallow-BE/.idea/workspace.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../SecureMarshmallow-BE/gradle/caches/7.6/executionHistory/executionHistory.lock" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../SecureMarshmallow-BE/gradle/caches/7.6/file-changes/last-build.bin" afterDir="false" />
@@ -1159,9 +1149,6 @@
       <change afterPath="$PROJECT_DIR$/../SecureMarshmallow-BE/gradle/wrapper/dists/gradle-7.6-bin/9l9tetv7ltxvx3i8an4pb86ye/gradle-7.6/lib/tomlj-1.0.0.jar" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../SecureMarshmallow-BE/gradle/wrapper/dists/gradle-7.6-bin/9l9tetv7ltxvx3i8an4pb86ye/gradle-7.6/lib/trove4j-1.0.20200330.jar" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../SecureMarshmallow-BE/gradle/wrapper/dists/gradle-7.6-bin/9l9tetv7ltxvx3i8an4pb86ye/gradle-7.6/lib/xml-apis-1.4.01.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.6/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.6/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6/checksums/md5-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.6/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6/checksums/sha1-checksums.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -1245,7 +1232,7 @@
       <workItem from="1677389945380" duration="4474000" />
       <workItem from="1677394527327" duration="8010000" />
       <workItem from="1677402875078" duration="1224000" />
-      <workItem from="1677405413655" duration="8000" />
+      <workItem from="1677405413655" duration="923000" />
     </task>
     <task id="LOCAL-00001" summary="🔨 :: 로그인">
       <created>1677390168213</created>
@@ -1303,7 +1290,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677403812371</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="🔨 :: 로그인">
+      <created>1677405462899</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1677405462899</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1313,6 +1307,7 @@
     <MESSAGE value="⚒️ :: 로그인" />
     <MESSAGE value=" :: 로그인" />
     <MESSAGE value=" :: UserRepository" />
+    <MESSAGE value=" :: 로그인" />
     <MESSAGE value=" :: 로그인" />
     <MESSAGE value=" :: 로그인" />
     <option name="LAST_COMMIT_MESSAGE" value=" :: 로그인" />
