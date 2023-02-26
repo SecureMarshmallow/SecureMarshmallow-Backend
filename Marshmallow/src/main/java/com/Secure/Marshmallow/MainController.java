@@ -42,4 +42,18 @@ public class MainController {
             return ResponseEntity.notFound().build();
         }
     }
+
+    @PostMapping("/write")
+    public ResponseEntity<User> writePost(@RequestParam String title, @RequestParam String writer,@RequestParam String content,@RequestParam String password) {
+        Board board = BoardRepository.(title, writer, content, password);
+        if (user == null) {
+            return ResponseEntity.notFound().build();
+        } else if (user != null) {
+            return ResponseEntity.ok(user);
+        }
+        else
+        {
+            return ResponseEntity.notFound().build();
+        }
+    }
 }
