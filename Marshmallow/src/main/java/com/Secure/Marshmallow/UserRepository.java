@@ -17,6 +17,6 @@ public class UserRepository {
 
     public User Register(String username, String password, String id, String gmail) {
         String query = "INSERT INTO user(id,username,password,gmail) VALUES('"+ id +"','"+ username + "','" + password + "','" + gmail + "')";
-        return jdbcTemplate.queryForObject(query, new Object[]{username, password}, new BeanPropertyRowMapper<>(User.class));
+        return jdbcTemplate.queryForObject(query, new Object[]{username, password, id, gmail}, new BeanPropertyRowMapper<>(User.class));
     }
 }
