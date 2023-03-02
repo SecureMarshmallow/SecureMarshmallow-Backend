@@ -18,7 +18,7 @@ public class MainController {
 
     @PostMapping("/login")
     public ResponseEntity<User> login(@RequestParam String username, @RequestParam String password) {
-        User user = userRepository.findByUsernameAndPassword(username, password);
+        User user = userRepository.Login(username, password);
         if (user == null) {
             return ResponseEntity.notFound().build();
         } else if (user != null) {

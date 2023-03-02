@@ -10,7 +10,7 @@ public class UserRepository {
 
     private JdbcTemplate jdbcTemplate;
 
-    public User findByUsernameAndPassword(String username, String password) {
+    public User Login(String username, String password) {
         String query = "SELECT * FROM user WHERE username = '" + username + "' AND password = '" + password + "'";
         return jdbcTemplate.queryForObject(query, new Object[]{username, password}, new BeanPropertyRowMapper<>(User.class));
     }

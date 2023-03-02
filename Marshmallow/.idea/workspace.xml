@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="23d214fe-a2d9-4675-87e8-184f49e90aaf" name="Changes" comment="🔨 :: 게시판 구현 시도">
+    <list default="true" id="23d214fe-a2d9-4675-87e8-184f49e90aaf" name="Changes" comment="🔨 :: 게시판 구현">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Secure/Marshmallow/BoardRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Secure/Marshmallow/BoardRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/Secure/Marshmallow/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Secure/Marshmallow/MainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Secure/Marshmallow/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Secure/Marshmallow/UserRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +91,10 @@
       <workItem from="1677394527327" duration="8010000" />
       <workItem from="1677402875078" duration="1224000" />
       <workItem from="1677405413655" duration="1803000" />
-      <workItem from="1677407222285" duration="3551000" />
+      <workItem from="1677407222285" duration="7019000" />
+      <workItem from="1677577025101" duration="658000" />
+      <workItem from="1677660145196" duration="3770000" />
+      <workItem from="1677736661497" duration="1468000" />
     </task>
     <task id="LOCAL-00001" summary="🔨 :: 로그인">
       <created>1677390168213</created>
@@ -191,7 +194,21 @@
       <option name="project" value="LOCAL" />
       <updated>1677411964351</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="🔨 :: 게시판 구현">
+      <created>1677412440050</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1677412440050</updated>
+    </task>
+    <task id="LOCAL-00016" summary="🔨 :: 게시판 구현">
+      <created>1677412845446</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1677412845446</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -207,6 +224,7 @@
     <MESSAGE value=" :: 회원가입 클래스" />
     <MESSAGE value=" :: 회원가입 클래스" />
     <MESSAGE value=" :: 게시판 구현 시도" />
-    <option name="LAST_COMMIT_MESSAGE" value=" :: 게시판 구현 시도" />
+    <MESSAGE value=" :: 게시판 구현" />
+    <option name="LAST_COMMIT_MESSAGE" value=" :: 게시판 구현" />
   </component>
 </project>
